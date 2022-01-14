@@ -129,7 +129,7 @@ body{
 }
 .join{
     width: 770px;
-    height: 50px;
+    height: 52px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -728,7 +728,7 @@ body{
     width: 135px;
     height: 67px;
     position: absolute;
-    top: 21%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -812,12 +812,12 @@ body{
 .flui__left{
     position: absolute;
     top: -3%;
-    left: -134px;
+    left: -143px;
     z-index: 10;
 }
 .flui__left>img{
-    width: 300px;
-    height: 280px;
+    width: 320px;
+    height: 270px;
 }
 .flui__right{
     position: absolute;

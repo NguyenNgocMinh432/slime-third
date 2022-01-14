@@ -82,7 +82,7 @@
         left: 0;
     }
     .title__top{
-        padding: 10% 0% 5% 0%;
+        padding: 10% 0% 0% 0%;
         width: 360px;
         display:flex;
         justify-content: space-between;
@@ -99,7 +99,7 @@
     }
     .title__below{
         text-align: center;
-        padding: 2% 0;
+        padding: 2% 0% 0% 0%;
     }
     .title__below>span{
         font-family: "Quicksand", sans-serif;
@@ -152,16 +152,16 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
-        padding:7% 5% !important;
+        padding:5% 6% !important;
     }
     .card__game-1{
-        width: 45% !important;
+        width: 44% !important;
     }
     .card__game-1>img:first-child {
-        top: -14% !important;
+        top: -13% !important;
     }
     .card__game-1>img:nth-child(3){
-        bottom:-45% !important;
+        bottom:-36% !important;
     }
     .content__mobile{
         font-family: "Quicksand", sans-serif;
@@ -240,7 +240,7 @@
         margin: 2% auto;
     }
     .card__icon{
-        height: 250px !important;
+        height: 230px !important;
     }
     .card__boss:after{
         content: "";
@@ -285,11 +285,17 @@
         width: 7% !important;
     }
     .color-2{
+        max-width: 200% !important;
         position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
+        height: 102%;
+        width: 142%;
+        z-index: 0;
         bottom: 10%;
+        right: -24%;
+    }
+    .shadow-icon{
+        position: absolute;
+        bottom: 26%;
     }
     .seasion__mobile-4{
         width: 100%;
@@ -358,7 +364,7 @@
     }
     .pat-1{
         width: 100%;
-        padding: 16.5% 5% 0% 17%;
+        padding: 16.5% 5% 0% 14%;
         display: none;
         transition: opacity .4s;
     }
@@ -370,7 +376,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 17px;
     color: #000000;
     }
@@ -384,10 +390,11 @@
         display: block;
     } */
     .flui-mobile{
-        width: 70%;
+        width: 80%;
+        height: 45%;
         position: absolute;
-        top: -11%;
-        right: -56%;
+        top: -10%;
+        right: -66%;
     }
     .flui-mobile-2{
         width: 70%;
@@ -403,7 +410,7 @@
     .text-one{
         font-family: "Quicksand", sans-serif;
         color: rgb(0, 0, 0);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         text-align: center;
         line-height: 1.6;
@@ -411,7 +418,7 @@
     .text-2{
         font-family: "Quicksand", sans-serif;
         color: rgb(0, 0, 0);
-        font-size: 11px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
         line-height: 1.2;
@@ -419,7 +426,7 @@
     .text-3{
         font-family: "Quicksand", sans-serif;
         color: rgb(0, 0, 0);
-        font-size: 11px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
         line-height: 1.6;
@@ -562,7 +569,7 @@
     }
     .card__game-1>img:nth-child(3) {
         width: 100% !important;
-        bottom: -35% !important;
+        bottom: -44% !important;
     }
     .card__game-1>img:first-child {
         width: 100% !important;
