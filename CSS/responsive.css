@@ -1,0 +1,607 @@
+
+@media only screen and (min-width:1024px){
+    .pc__none{
+        display:none !important;
+    }
+}
+/* mobile */
+@media only screen and (min-width:768px){
+    .mobile{
+        display:none !important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .mobile__none{
+        display: none !important;
+    }
+    .header{
+        height: 56px !important;
+        padding:0 2% !important;
+    }
+    .header__title{
+        font-size: 10px !important;
+    }
+    .circle{
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .circle-2{
+        width: 15px !important;
+    }
+    .circle-3{
+        width: 9px !important;
+        height: 13px !important;
+    }
+    .circle-cus{
+        width: 16px !important;
+        height: 12px !important;
+    }
+    .header__left>img{
+        width: 80px !important;
+        height: 40px !important;
+    }
+    .header__right{
+        width: 200px !important;
+    }
+    .seasion-1-mobile{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .seasion__mobile-1{
+        width: 100% ;
+        height: 100%;
+        overflow: hidden;
+    }
+    .seasion__mobile-1>video{
+        width: 101%;
+        height: 94vh;
+        object-fit: cover;
+    }
+    .seasion__mobile-2{
+        margin-top: -2%;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 20%;
+    }
+    .seasion__mobile-2:after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://w.ladicdn.com/s768x886/5975a287c2e826c997f027ee/final-bg-flip-20211231153204.jpg);
+        background-position: center top;
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        pointer-events: none;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    .title__top{
+        padding: 10% 0% 5% 0%;
+        width: 360px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .title__top>span{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        text-align: center;
+        line-height: 1;
+    }
+    .title__below{
+        text-align: center;
+        padding: 2% 0;
+    }
+    .title__below>span{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .header__mobile--title{
+        display: flex;
+        position: absolute;
+        z-index: 10;
+        bottom: 11%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 290px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__mobile--title>img{
+        width: 140px;
+        height: 32px;
+    }
+    .link__mobile{
+        display: block;
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    /* .link__mobile>img{
+        position: absolute;
+    } */
+    .a-text{
+        width: 100%;
+        position: absolute;
+        top: 11px;
+        font-family: "Nunito";
+        color: rgb(127, 38, 26);
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 900;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .list__card-mobile{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:7% 5% !important;
+    }
+    .card__game-1{
+        width: 45% !important;
+    }
+    .card__game-1>img:first-child {
+        top: -14% !important;
+    }
+    .card__game-1>img:nth-child(3){
+        bottom:-45% !important;
+    }
+    .content__mobile{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        text-align: center;
+        line-height: 1.6;
+        padding: 10% 4%;
+    }
+    .join__mobile{
+        position: relative;
+        width: 229px;
+        margin:0 auto;
+    }
+    .join__link{
+        text-align: center;
+    }
+    .join__link>img{
+        width: 229px;
+        height: 41px;
+        margin:0 auto;
+    }
+    .join__link>span{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Nunito";
+        color: rgb(127, 38, 26);
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 900;
+        z-index: 1000;
+    }
+    .slime__1{
+        position: absolute;
+        left: -50%;
+        top: -192%;
+        width: 207px !important;
+        height: 200px !important;
+        z-index: 1000;
+    }
+    .slime__2{
+        position: absolute;
+        right: -30%;
+        top: -78%;
+        width: 110px !important;
+        height: 85px !important;
+        z-index: 1000;
+    }
+    .seasion__mobile-3{
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        padding-bottom: 20%;
+    }
+    .seasion__mobile-3:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://w.ladicdn.com/s1440x767/5975a287c2e826c997f027ee/final-bg-flip-20211231153204.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        z-index: -1;
+    }
+    .card__boss{
+        width: 307px;
+        height: 522px;
+        position: relative;
+        z-index: 1;
+        margin: 2% auto;
+    }
+    .card__icon{
+        height: 250px !important;
+    }
+    .card__boss:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient( 180deg, rgba(115, 105, 173, 1.0), rgba(41, 70, 106, 1.0));
+        opacity: 0.7;
+        border-radius: 16px;
+        z-index: -1;
+    }
+    .card__boss-below{
+        width: 100%;
+        height: 95px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(115, 106, 173, 0.2), rgba(18, 37, 61, 1.0));
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px
+    }
+    .tank{
+        font-family: "Nunito";
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 900;
+        margin-top: 4%;
+    }
+    .hp{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 7% !important;
+    }
+    .color-2{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        bottom: 10%;
+    }
+    .seasion__mobile-4{
+        width: 100%;
+        /* height: 450px; */
+        position: relative;
+        z-index: 2000;
+    }
+    .seasion__mobile-4:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://w.ladicdn.com/s1440x767/5975a287c2e826c997f027ee/final-bg-flip-20211231153204.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        z-index: -1;
+    }
+    .text-video{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .pad-0{
+        padding: 16% 0% 0% 0% !important;
+    }
+    .mobile__video-below{
+        padding-bottom: 20%;
+    }
+    .mobile__video-below>video{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .seasion__mobile-5{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 20%;
+        padding-top: 10%;
+    }
+    .seasion__mobile-5:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://w.ladicdn.com/s1440x767/5975a287c2e826c997f027ee/final-bg-flip-20211231153204.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: content-box;
+        z-index: -1;
+    }
+    .partner{
+        width:85%;
+        height: 587px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 16px;
+        margin:0 auto;
+        position: relative;
+    }
+    .pat-1{
+        width: 100%;
+        padding: 16.5% 5% 0% 17%;
+        display: none;
+        transition: opacity .4s;
+    }
+    .pat-one{
+        font-size: 12px;
+    }
+    .pat-1>p{
+    width: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 17px;
+    color: #000000;
+    }
+    /* .partner:hover .logo__mobile-top{
+        display:none;
+    }
+    .partner:hover .title__top{
+        display: none;
+    }
+    .partner:hover .pat-1{
+        display: block;
+    } */
+    .flui-mobile{
+        width: 70%;
+        position: absolute;
+        top: -11%;
+        right: -56%;
+    }
+    .flui-mobile-2{
+        width: 70%;
+        position: absolute;
+        transform: rotate(180deg);
+        left: -50%;
+        bottom: -13%;
+    }
+    .logo__mobile-top{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .text-one{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .text-2{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .text-3{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.6;
+    }
+    .seasion__mobile-6{
+        width: 100%;
+        position: relative;
+    }
+    .text-6{
+        width: 55%;
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer__mobile{
+        width: 100%;
+        background-color: #242424;
+        height: 200px;
+    }
+    .footer__text-1{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        color: #fff;
+        padding:2% 2%;
+        text-align: center;
+    }
+    .f-text-1{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.6;
+        width: 33%;
+    }
+    .f-text{
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.6;
+        border-left: 1px solid #fff;
+        text-align: center;
+        width: 32%;
+    }
+    .t-end{
+        width: 100%;
+        font-family: "Quicksand", sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .footer__text-1>span{
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width:340px){
+    
+    .title__top{
+        width: 310px !important;
+    }
+    .w-2{
+        width: 240px !important;
+    }
+    .title__top>span{
+        font-size: 20px !important;
+    }
+    .title__below>span{
+        font-size: 9px;
+    }
+    .card__icon{
+        width: 136px !important;
+    }
+    .card__game-1>img:nth-child(3) {
+        bottom: -19% !important;
+        width: 100%;
+    }    
+    .footer__text-1{
+        padding: 2% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .seasion__content{
+        width: 100% !important;
+    }
+    .list__card{
+        padding: 2% !important;
+    }
+    .boss-1{
+        width: 160px !important;
+    }
+    .boss{
+        width: 215px !important;
+    }
+    .boss-5 {
+        width: 334px !important;
+        height: 335px !important;
+        bottom: 0% !important;
+    }
+}
+@media only screen and (min-width:941px){
+    .none-pc{
+        display:none !important;
+    }
+}
+@media only screen and (max-width:940px){
+    .none-940{
+        display:none !important;
+    }
+    .list__profile{
+        padding-top: 22% !important;
+    }
+    .seasion-1{
+        margin-top: -7px !important;
+    }
+    .preview__video>video{
+        width: 100% !important;
+    }
+    .Our__Partners{
+        width: 100% !important;
+    }
+    .seasion-6>a {
+        top: 86% !important;
+    }
+}
+@media only screen and (min-width:440px) and (max-width:766px){
+    .card__game-1{
+        width: 45% !important;
+    }
+    .list__card-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 10% !important;
+    }
+    .card__game-1>img:nth-child(3) {
+        width: 100% !important;
+        bottom: -35% !important;
+    }
+    .card__game-1>img:first-child {
+        width: 100% !important;
+        top: -13% !important;
+    }
+}
+@media only screen and (max-width:376px){
+    .card__game-1>img:nth-child(3) {
+        bottom: -44% !important;
+        width: 100% !important;
+    }
+    .card__game-1>img:first-child {
+        top: -12% !important;
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width:769px)and (max-width:912px){
+    .card__game>img:first-child{
+        position: absolute;
+        top:-49px !important;
+        width: 100% !important;
+    }
+    .card__game-1>img:nth-child(3) {
+        bottom: -45% !important;
+        width: 100% !important;
+    }
+    .card__game-1>img:first-child {
+        top: -6% !important;
+        width: 100% !important;
+    }
+    .boss-1{
+        width: 160px !important;
+    }
+    .boss{
+        width: 215px !important;
+    }
+    .boss-5 {
+        width: 334px !important;
+        height: 335px !important;
+        bottom: 0% !important;
+    }
+}
